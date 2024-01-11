@@ -3,16 +3,13 @@
 #### Link
 https://spotify-reviews-qna.streamlit.app/
 
+#### Video
+https://youtu.be/kZ7mOAhDAeE
+
 #### Screenshot
 ![image](https://github.com/projecttmts/spotify_reviews_qna/assets/156335468/0a365565-9637-405d-a7ef-fb9735ce2877)
 ![image](https://github.com/projecttmts/spotify_reviews_qna/assets/156335468/4c064953-4263-4912-838f-5175a19cb8b8)
 ![image](https://github.com/projecttmts/spotify_reviews_qna/assets/156335468/25abdca1-b8a1-49b7-9993-7656b5f950fc)
-
-
-
-
-#### Video
-https://youtu.be/kZ7mOAhDAeE
 
 ## Personal thoughts regarding the project
 In my opinion, generating insights through summarization (e.g. extracting key information using a constant prompt for every reviews) is more appropriate as opposed to doing QnA on the reviews dataset. QnA via RAG is more appropriate when we need to search a specific information from a large corpus of documents. Regardless, I have tried to implement a QnA system using RAG for this project. 
