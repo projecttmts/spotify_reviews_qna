@@ -136,7 +136,8 @@ if prompt := st.chat_input("Enter a question related to Spotify reviews!"):
         st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
     
-    response = qa_pipeline(st.session_state.llm, st.session_state.index, prompt)
+    result = qa_pipeline(st.session_state.llm, st.session_state.index, prompt)
+    response = result['output_text']
     with st.chat_message("assistant"):
         st.markdown(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
