@@ -1,0 +1,4 @@
+.streamlit
+.env
+*.csv
+newenv
